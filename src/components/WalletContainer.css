@@ -1,0 +1,129 @@
+
+/* Main wallet container with glassmorphic effects */
+.wallet-container {
+  position: relative;
+  width: 160px;
+  height: 104px;
+  
+  /* Complex multi-layer background gradients */
+  background: 
+    linear-gradient(64.48deg, rgba(255, 255, 255, 0) 42.36%, rgba(255, 255, 255, 0.04) 100%),
+    linear-gradient(61.91deg, rgba(255, 255, 255, 0) -20.01%, rgba(255, 255, 255, 0.05) 75.93%),
+    rgba(248, 248, 248, 0.02);
+  
+  /* Multi-layer box shadow system */
+  box-shadow: 
+    0px 0px 0px 4px rgba(18, 18, 18, 0.5),
+    0px 32px 24px -12px rgba(18, 18, 18, 0.3),
+    inset 0px 0px 8px #FFFFFF;
+  
+  /* Glassmorphic backdrop blur */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  
+  border-radius: 20px;
+}
+
+/* Hexagonal polygon positioning */
+.polygon-container {
+  position: absolute;
+  left: 11.25%;
+  right: 73.75%;
+  top: 18.27%;
+  bottom: 58.65%;
+}
+
+/* Main label container positioning */
+.wallet-label-container {
+  position: absolute;
+  left: 11.25%;
+  right: 11.25%;
+  top: 53.85%;
+  bottom: 23.08%;
+}
+
+/* Inner container for horizontal bars */
+.wallet-label-inner-container {
+  position: absolute;
+  left: 0%;
+  right: 54.03%;
+  top: 41.67%;
+  bottom: 41.67%;
+}
+
+/* Left horizontal bar */
+.testimonial-browser-tab-inner-left-1 {
+  position: absolute;
+  left: 0%;
+  right: 64.91%;
+  top: 0%;
+  bottom: 0%;
+  
+  background: #F8F8F8;
+  opacity: 0.75;
+  border-radius: 8px;
+}
+
+/* Right horizontal bar */
+.testimonial-browser-tab-inner-left-2 {
+  position: absolute;
+  left: 42.11%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  background: #F8F8F8;
+  opacity: 0.75;
+  border-radius: 8px;
+}
+
+/* Right side button container */
+.wallet-label-container-2 {
+  box-sizing: border-box;
+  position: absolute;
+  left: 71.77%;
+  right: -0.81%;
+  top: 0%;
+  bottom: 0%;
+  
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0px 16px 32px -16px rgba(18, 18, 18, 0.4),
+    inset 0px 0px 8px rgba(248, 248, 248, 0.25);
+  border-radius: 6px;
+}
+
+/* Inner button element */
+.wallet-label-inner-container-2 {
+  box-sizing: border-box;
+  position: absolute;
+  left: 11.11%;
+  right: 11.11%;
+  top: 16.67%;
+  bottom: 16.67%;
+  
+  background: 
+    linear-gradient(0deg, rgba(18, 18, 18, 0.3), rgba(18, 18, 18, 0.3)),
+    rgba(248, 248, 248, 0.01);
+  box-shadow: inset 0px 0px 8px rgba(18, 18, 18, 0.2);
+  border-radius: 2px;
+  
+  /* Hover glow effect */
+  transition: all 0.3s ease;
+}
+
+.wallet-label-inner-container-2:hover {
+  box-shadow: 
+    inset 0px 0px 8px rgba(18, 18, 18, 0.2),
+    0px 0px 16px rgba(248, 248, 248, 0.4);
+}
+
+/* Additional glassmorphic enhancement for better browser support */
+@supports not (backdrop-filter: blur(16px)) {
+  .wallet-container {
+    background: 
+      linear-gradient(64.48deg, rgba(255, 255, 255, 0.02) 42.36%, rgba(255, 255, 255, 0.06) 100%),
+      linear-gradient(61.91deg, rgba(255, 255, 255, 0.02) -20.01%, rgba(255, 255, 255, 0.07) 75.93%),
+      rgba(248, 248, 248, 0.04);
+  }
+}
