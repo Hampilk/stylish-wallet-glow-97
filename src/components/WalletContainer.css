@@ -7,15 +7,15 @@
   
   /* Complex multi-layer background gradients */
   background: 
-    linear-gradient(64.48deg, rgba(255, 255, 255, 0) 42.36%, rgba(255, 255, 255, 0.04) 100%),
-    linear-gradient(61.91deg, rgba(255, 255, 255, 0) -20.01%, rgba(255, 255, 255, 0.05) 75.93%),
-    rgba(248, 248, 248, 0.02);
+    linear-gradient(64.48deg, rgba(23, 23, 23, 0) 42.36%, rgba(23, 23, 23, 0.04) 100%),
+    linear-gradient(61.91deg, rgba(23, 23, 23, 0) -20.01%, rgba(23, 23, 23, 0.05) 75.93%),
+    rgba(23, 23, 23, 0.02);
   
   /* Multi-layer box shadow system */
   box-shadow: 
-    0px 0px 0px 4px rgba(18, 18, 18, 0.5),
-    0px 32px 24px -12px rgba(18, 18, 18, 0.3),
-    inset 0px 0px 8px #FFFFFF;
+    0px 0px 0px 4px rgba(23, 23, 23, 0.5),
+    0px 32px 24px -12px rgba(23, 23, 23, 0.3),
+    inset 0px 0px 8px #171717;
   
   /* Glassmorphic backdrop blur */
   backdrop-filter: blur(16px);
@@ -59,7 +59,7 @@
   top: 0%;
   bottom: 0%;
   
-  background: #F8F8F8;
+  background: #171717;
   opacity: 0.75;
   border-radius: 8px;
 }
@@ -72,7 +72,7 @@
   top: 0%;
   bottom: 0%;
   
-  background: #F8F8F8;
+  background: #171717;
   opacity: 0.75;
   border-radius: 8px;
 }
@@ -86,10 +86,10 @@
   top: 0%;
   bottom: 0%;
   
-  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  border: 1.5px solid rgba(23, 23, 23, 0.2);
   box-shadow: 
-    0px 16px 32px -16px rgba(18, 18, 18, 0.4),
-    inset 0px 0px 8px rgba(248, 248, 248, 0.25);
+    0px 16px 32px -16px rgba(23, 23, 23, 0.4),
+    inset 0px 0px 8px rgba(23, 23, 23, 0.25);
   border-radius: 6px;
 }
 
@@ -103,9 +103,9 @@
   bottom: 16.67%;
   
   background: 
-    linear-gradient(0deg, rgba(18, 18, 18, 0.3), rgba(18, 18, 18, 0.3)),
-    rgba(248, 248, 248, 0.01);
-  box-shadow: inset 0px 0px 8px rgba(18, 18, 18, 0.2);
+    linear-gradient(0deg, rgba(23, 23, 23, 0.3), rgba(23, 23, 23, 0.3)),
+    rgba(23, 23, 23, 0.01);
+  box-shadow: inset 0px 0px 8px rgba(23, 23, 23, 0.2);
   border-radius: 2px;
   
   /* Hover glow effect */
@@ -114,16 +114,16 @@
 
 .wallet-label-inner-container-2:hover {
   box-shadow: 
-    inset 0px 0px 8px rgba(18, 18, 18, 0.2),
-    0px 0px 16px rgba(248, 248, 248, 0.4);
+    inset 0px 0px 8px rgba(23, 23, 23, 0.2),
+    0px 0px 16px rgba(23, 23, 23, 0.4);
 }
 
 /* Additional glassmorphic enhancement for better browser support */
 @supports not (backdrop-filter: blur(16px)) {
   .wallet-container {
     background: 
-      linear-gradient(64.48deg, rgba(255, 255, 255, 0.02) 42.36%, rgba(255, 255, 255, 0.06) 100%),
-      linear-gradient(61.91deg, rgba(255, 255, 255, 0.02) -20.01%, rgba(255, 255, 255, 0.07) 75.93%),
-      rgba(248, 248, 248, 0.04);
+      linear-gradient(64.48deg, rgba(23, 23, 23, 0.02) 42.36%, rgba(23, 23, 23, 0.06) 100%),
+      linear-gradient(61.91deg, rgba(23, 23, 23, 0.02) -20.01%, rgba(23, 23, 23, 0.07) 75.93%),
+      rgba(23, 23, 23, 0.04);
   }
 }

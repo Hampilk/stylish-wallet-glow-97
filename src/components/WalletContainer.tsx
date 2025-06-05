@@ -14,8 +14,8 @@ const WalletContainer = () => {
           />
           <defs>
             <linearGradient id="paint0_linear_25_4956" x1={11} y1={0} x2={11} y2={24} gradientUnits="userSpaceOnUse">
-              <stop stopColor="#F8F8F8" stopOpacity="0.9" />
-              <stop offset={1} stopColor="#F8F8F8" stopOpacity="0.3" />
+              <stop stopColor="#171717" stopOpacity="0.9" />
+              <stop offset={1} stopColor="#171717" stopOpacity="0.3" />
             </linearGradient>
           </defs>
         </svg>
