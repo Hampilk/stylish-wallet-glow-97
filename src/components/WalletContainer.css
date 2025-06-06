@@ -2,8 +2,8 @@
 /* Main wallet container with glassmorphic effects from GlassGenerator.netlify.app */
 .wallet-container {
   position: relative;
-  width: 160px;
-  height: 104px;
+  width: 125px;
+  height: 63px;
   
   /* Glass effect background */
   background-color: rgba(23, 23, 23, 0.019);
