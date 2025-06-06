@@ -19,6 +19,47 @@
   -webkit-backdrop-filter: blur(8px);
   
   border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  
+  /* Flex container for centering text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Interactive hover state */
+.wallet-container.hovered {
+  transform: scale(1.05);
+  box-shadow: 
+    rgba(0, 0, 0, 0.3) 2px 8px 8px,
+    0 4px 16px rgba(255, 255, 255, 0.1);
+}
+
+/* Interactive pressed state */
+.wallet-container.pressed {
+  transform: scale(0.95);
+}
+
+/* Productivity text styling */
+.productivity-text {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+  user-select: none;
+  position: relative;
+  z-index: 10;
+}
+
+/* Enhanced text opacity on hover */
+.wallet-container.hovered .productivity-text {
+  opacity: 1;
 }
 
 /* ... keep existing code (polygon positioning, wallet label containers, and inner elements) */
